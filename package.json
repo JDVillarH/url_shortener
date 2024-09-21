@@ -6,8 +6,19 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@fontsource-variable/inter": "^5.0.21",
+        "@inertiajs/react": "^1.2.0",
+        "@vitejs/plugin-react": "^4.3.1",
+        "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
-        "laravel-vite-plugin": "^1.0",
+        "laravel-vite-plugin": "^1.0.5",
+        "postcss": "^8.4.45",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "tailwindcss": "^3.4.11",
         "vite": "^5.0"
+    },
+    "dependencies": {
+        "@marsidev/react-turnstile": "^1.0.2"
     }
 }
