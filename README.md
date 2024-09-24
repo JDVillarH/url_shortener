@@ -23,12 +23,12 @@ GoURL es un acortador de enlaces fácil de usar que permite a los usuarios gener
 -   Base de datos: **MySQL**
 -   Terceros: **Cloudflare Turnstile, GitHub y Google Auth**
 
-## Installation
+## Instalación
 
 -   Clona el repositorio
 
 ```bash
-  git clone https://github.com/JDVillarH/url_shortener
+  git clone https://github.com/JDVillarH/url_shortener.git
 ```
 
 -   Instala las dependencias
@@ -53,6 +53,9 @@ GoURL es un acortador de enlaces fácil de usar que permite a los usuarios gener
   php artisan key:generate
   php artisan migrate
 ```
+
+> [!IMPORTANT]
+> Recuerda que debes configurar tus credenciales de Cloudflare Turnstile, GitHub Auth y Google Auth en el archivo `.env`, esto es necesario para que el sitio funcione correctamente.
 
 ## Contribución
 
